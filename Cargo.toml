@@ -1,0 +1,12 @@
+[package]
+name = "dd_examples"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+differential-dataflow = { git = "https://github.com/TimelyDataflow/differential-dataflow"}
+dogsdogsdogs = { git = "https://github.com/TimelyDataflow/differential-dataflow.git" }
+timely = { git = "https://github.com/TimelyDataflow/timely-dataflow", features = ["bincode"]}
+serde = {version = "1.0.197", features = ["derive"]}
